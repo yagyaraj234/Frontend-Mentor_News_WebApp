@@ -1,0 +1,175 @@
+@media only screen and (max-width: 600px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  body{
+    background: red;
+  }
+  .mobile-img{
+    width: 100px
+    display:unset;
+  }
+  .mid-section-img{
+  visibility: hidden;
+  }
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 5rem 0 2rem 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+li {
+  list-style: none;
+}
+
+/* ul li  */
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.nav-links {
+  color: gray;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+.nav-links:hover {
+  color: black;
+  transition: 0.4s all;
+}
+.logo {
+  position: absolute;
+  left: 1rem;
+}
+
+/* --------------------- Mid Section -------------------------- */
+.mid-section {
+  /* background: red; */
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  margin: 2rem auto;
+}
+.mobile-img{
+  display: none;
+  /* visibility: hidden; */
+}
+
+
+.mid-section-left {
+  width: 60%;
+}
+.mid-section-img {
+  width: 40rem;
+}
+.mid-section-text {
+  display: flex;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.heading {
+  width: 10rem;
+  color: black;
+}
+#heading-2 {
+  width: 20rem;
+  margin-left: 5rem;
+}
+.btn {
+  padding: 0.6rem;
+  background: rgb(255, 98, 0);
+  border: none;
+  width: 10rem;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.mid-section-right {
+  background: rgb(18, 26, 50);
+  height: 70vh;
+  width: 30%;
+  margin-left: 5rem;
+  padding: 1rem;
+}
+.heading-new {
+  color: hsl(35, 92%, 64%);
+  margin: 2rem 0 1rem 1rem;
+}
+.heading-new-mid {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0rem 0.2rem 0;
+}
+.heading-new-low {
+  color: white;
+  font-size: 15px;
+  margin: 0rem 0rem 1.5rem 0;
+}
+
+/* -------------------- Recommendation ------------------------------
+ */
+
+.recommendations {
+  width: 80vw;
+  display: flex;
+  margin: auto;
+}
+.article {
+  width: 33%;
+  /* padding: 2rem; */
+}
+
+.article-head {
+  color: gray;
+  opacity: 80%;
+  font-size: 1.5rem;
+}
+.article-img{
+    
+    width:5rem;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.about{
+padding: .5rem;}
+
+.article-info{
+    font-size: 14px;
+    margin: 4px;
+}
+.article-mid-head
+{
+    font-weight: 700;
+}
